@@ -3,6 +3,7 @@
 *.md
 *.sh
 .dockerignore
-.git
+.git*
+.host-arch
 Dockerfile*
 LICENSE
