@@ -41,7 +41,7 @@ RUN set -eux; \
 	apt-get dist-clean
 
 # https://musl.libc.org/releases.html
-ENV MUSL_VERSION 1.2.5
+ENV MUSL_VERSION 1.2.6
 RUN set -eux; \
 # > Since 1.1.7, releases are signed with the project GPG key. Its fingerprint is 8364 8929 0BB6 B70F 99FF DA05 56BC DB59 3020 450F.
 	muslKey='8364 8929 0BB6 B70F 99FF DA05 56BC DB59 3020 450F'; \
